@@ -1,0 +1,9 @@
+Configura o serviço de e-mail. Nesse caso estou usando o sendGrid.
+
+Roda o comando: php artisan make:mail newLaravelTips (Para configurar os dados do e-mail)
+
+Baixando templates de e-mail do laravel:
+
+php artisan vendor:publish --tag=laravel-mail
+
+Dentro do newLaravelTips, troca o $this->view por $this->markdown
