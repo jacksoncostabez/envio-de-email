@@ -1,4 +1,4 @@
-Configura o serviço de e-mail. Nesse caso estou usando o sendGrid.
+Configura o serviço de e-mail no .env. Nesse caso estou usando o sendGrid.
 
 Roda o comando: php artisan make:mail newLaravelTips (Para configurar os dados do e-mail)
 
